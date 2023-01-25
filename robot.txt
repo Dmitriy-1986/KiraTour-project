@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: 
+Disallow: https://www.ukrainegermany.com/auth.php
+Disallow: https://www.ukrainegermany.com/admin.php
+Sitemap: https://www.ukrainegermany.com/sitemap.xml

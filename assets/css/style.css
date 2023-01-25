@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.footer-box {
+    padding: 10px;
+}
+
+.bg-footer {
+    background-color: #eef3f8;
+}
+
+.card-img-top {
+    height: 212px;
+}
+
+.title-desc {
+    font-size: 34px;
+}
+
+.description p {
+    font-size: 22px;
+}
+
+.border-blockquote {
+    display: block;
+    border-left: 3px solid red; 
+    padding-left: 10px;
+}
+
+.form-border {
+    border: 1px solid #dee2e6; 
+    border-radius: 0.25rem; 
+    padding: 1.5rem;
+}
+
+.hidden {
+    display: none;
+}
+
+.btn-see-more {
+    display: none !important;
+}
+
+.social-icon {
+    width: 34px;
+}
+
+.container-table {
+    overflow: auto;
+}
+
+/* Sidebar chat */
+.viber-sidebar-chat, 
+.telegram-sidebar-chat,
+.whatsapp-sidebar-chat {
+    position: fixed; 
+    right: 10px;
+    padding: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.viber-sidebar-chat {
+    bottom: 460px;
+}
+
+.telegram-sidebar-chat {
+    bottom: 400px;
+}
+
+.whatsapp-sidebar-chat {
+    bottom: 340px;
+}
+
+@media (max-width: 777px) {
+    .hide {
+        display: none !important;
+    }
+
+   .active {
+        display: block !important;;
+    }
+
+    .btn-see-more {
+        display: block !important;
+    }   
+}
+
+@media (max-width: 600px) {
+    .title-desc {
+        font-size: 30px;
+    }
+    
+    .description p {
+        font-size: 18px;
+    }
+    
+    .footer-box {
+       width: 90%;
+       margin: 0 auto;
+    }
+}

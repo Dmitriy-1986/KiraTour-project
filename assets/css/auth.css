@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.auth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/bg-login.png);
+    background-size: cover;
+    max-width: 100%;
+    min-height: 100vh;
+}
+
+.form-auth {
+    max-width: 500px;
+    padding: 10px;
+}
+
+.title .title-img {
+    height: 70px;
+} 
+
+.login-input,.pasword-input, .btn-submit {
+    outline: none;
+    padding: 5px;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 36px;
+    background: #27262c;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+    color: #ffffff;
+    caret-color: #ffffff;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.btn-submit {
+    background-color: #3436bd;
+    border: none;
+    transition: background 600ms;
+}
+
+.btn-submit:hover {
+    background: #25279c;
+}
